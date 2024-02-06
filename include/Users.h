@@ -19,6 +19,13 @@ private :
     Email e;
 
     fstream contact,temp;
+
+    // for reading from file..
+    char _id[5];
+    char _name[50];
+    char _gender[8];
+    char _city[30];
+    char _address[50];
 public :
     Users();
     Users(const Users&);
@@ -34,12 +41,6 @@ public :
     void display_all_contacts();
     int no_of_contacts();
     virtual ~Users();
-
-    char _id[5];
-    char _name[50];
-    char _gender[8];
-    char _city[30];
-    char _address[50];
 
 protected :
 };
