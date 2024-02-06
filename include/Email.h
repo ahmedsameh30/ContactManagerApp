@@ -13,6 +13,12 @@ private :
 
     fstream mail,nom,temp;
     vector<pair<string,string>> vp;
+
+    // for reading from file..
+    char _no_of_mails[3];
+    char _id[5];
+    char _mail[60];
+    char _type[30];
 public :
     Email();
     Email(const Email&);
@@ -25,11 +31,6 @@ public :
     void update_no_of_phones(char,string);
     void print(string);
     virtual ~Email();
-
-    char _no_of_mails[3];
-    char _id[5];
-    char _mail[60];
-    char _type[30];
 
     protected:
 };
