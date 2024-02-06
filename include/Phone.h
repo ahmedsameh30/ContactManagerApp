@@ -13,6 +13,12 @@ private :
 
     fstream phon,noph,temp;
     vector<pair<string,string>> vp;
+
+    // for reading from file..
+    char _no_of_phones[3];
+    char _id[5];
+    char _phone[13];
+    char _type[20];
 public :
 
     Phone();
@@ -27,11 +33,6 @@ public :
     void update_no_of_phones(char,string);
     void print(string);
     virtual ~Phone();
-
-    char _no_of_phones[3];
-    char _id[5];
-    char _phone[13];
-    char _type[20];
 
 protected :
 };
