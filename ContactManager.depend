@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1707241460 source:f:\codeblocksfile\contactmanager\main.cpp
+	<iostream>
+	"Contact.h"
+
+1707243675 source:f:\codeblocksfile\contactmanager\src\users.cpp
+	"Users.h"
+	"Phone.h"
+	"Email.h"
+	<bits/stdc++.h>
+
+1707242937 f:\codeblocksfile\contactmanager\include\users.h
+	<bits/stdc++.h>
+	"Phone.h"
+	"Email.h"
+
+1707241580 source:f:\codeblocksfile\contactmanager\src\contact.cpp
+	"Contact.h"
+	<bits/stdc++.h>
+	"Users.h"
+	"Phone.h"
+	"Email.h"
+
+1707238835 f:\codeblocksfile\contactmanager\include\contact.h
+	"Users.h"
+	<vector>
+
+1707239424 f:\codeblocksfile\contactmanager\include\phone.h
+	<bits/stdc++.h>
+
+1691254841 f:\codeblocksfile\contactmanager\include\email.h
+	<bits/stdc++.h>
+
+1707243489 source:f:\codeblocksfile\contactmanager\src\email.cpp
+	"Email.h"
+	"Contact.h"
+	<bits/stdc++.h>
+
+1707244166 source:f:\codeblocksfile\contactmanager\src\phone.cpp
+	"Phone.h"
+	<bits/stdc++.h>
+	"Contact.h"
+
